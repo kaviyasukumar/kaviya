@@ -1,0 +1,8 @@
+num1=int(input("enter your first number:"))
+if num1<10:
+ print("your num is single digit number")
+elif num1<=99:
+ print("your number is double digit number")
+else:
+ print("your number is triple digit number")
+
