@@ -1,0 +1,9 @@
+a="lion king is a disney movie"
+for x in range(1,len(a),2):
+ print(a[x])
+
+
+
+
+
+

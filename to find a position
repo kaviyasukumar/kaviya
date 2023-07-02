@@ -1,0 +1,10 @@
+a=int(input("enter a value you want to find its position:"))
+c=0
+d=0
+list1=[23,45,56,23,45,56,23,45,6,1,2,45,78,97,34,56,78,34,12]
+for i in range(0,len(list1)):
+ if a!=list1[i]:
+  c=i+1
+ elif a==list1[i]:
+  print("your value",a, "is found",c,"position") 
+  

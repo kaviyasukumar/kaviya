@@ -1,0 +1,7 @@
+name1=input("enter your name:")
+alphabet1=input("enter your alphabet you want to count:")
+count=0
+for x in range(0,len(name1)):
+ if alphabet1==name1[x]:
+  count=count+1
+print(count)

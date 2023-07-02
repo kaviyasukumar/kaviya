@@ -1,0 +1,4 @@
+user_value=int(input("enter your value to print stars"))
+for x in range(user_value):
+ print("*",end=" ")
+

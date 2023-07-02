@@ -1,0 +1,8 @@
+list1=[23,45,56,23,45,56,23,45,6,1,2,45,78,97,34,56,78,34,12]
+biggest_num=0
+for i in range(0,len(list1)):
+  if biggest_num<list1[i]:
+   biggest_num=list1[i]
+
+print(biggest_num)
+
