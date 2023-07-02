@@ -1,0 +1,8 @@
+a="Kaviya goes to college every day without fail"
+for i in range (0,len(a),1):
+ if a[i]!=" ":
+   print(a[i],end="")
+ elif a[i]==" ":
+   print("\n")
+
+
