@@ -1,0 +1,11 @@
+val1=int(input("enter the number to get fibonacci series"))
+a=[0,1]
+for i in range(0,val1):
+ b=a[i]+a[i+1]
+ a[len(a):]=[b]
+print(a)
+
+
+
+
+
