@@ -1,0 +1,17 @@
+count=1
+a=input("enter the string1 value:")
+b=input("enter the string2 value:")
+for i in range(0,len(a)):
+ for j in range(0,len(b)):
+  if a[i]==b[j]:
+   count=count+1
+c=len(a)+len(b)-count
+print(c)
+e=["f","l","a","m","e","s"]
+while len(e)>1:
+ f=(c%len(e))-1
+ if f>=0:
+  e=e[f+1:]+e[:f]
+ else:
+  e=e[:len(e)-1]
+print(e)
