@@ -1,0 +1,10 @@
+n = 10
+a = [6,1,2,8,3,4,7,10,5]
+c=sorted(a)
+for i in c:
+    j=1
+    while j<len(a):
+        if i!=j:
+            print(j)
+            j=j+1
+            break

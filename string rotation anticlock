@@ -1,0 +1,9 @@
+a = "geeksforgeeks"
+b = 'geeksgeeksfor'
+for j in range(0,2):
+ i=0
+ a=a[i+1:]+a[i]
+if a==b:
+ print(1)
+else:
+ print(0)

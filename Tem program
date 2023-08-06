@@ -1,0 +1,13 @@
+tem=[30,60,90]
+a=[]
+for i in range(0,len(tem)-1):
+    if tem[i]<tem[i+1]:
+        a[i:]=[1]
+    if i==len(a)-2:  
+        a[i:]=[0]
+    #if i==1:
+     #   a[i+1:]=[0]
+print(a)
+
+    
+    

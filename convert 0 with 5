@@ -1,0 +1,11 @@
+#2
+#1004
+#121
+#Output
+#1554
+#121
+a=[1,0,0,4]
+for i in range(0,len(a)):
+    if a[i]==0:
+        a[i]=5
+print(a)

@@ -1,0 +1,9 @@
+a=[11,31,4,3,9]
+i=0
+while i<=len(a):
+    if i%2==1:
+        b=a[i]
+        if a[i]<a[i+2]:
+          a[i+2]=a[i]
+          a[i]=b
+          print(a)

@@ -1,0 +1,17 @@
+#S = "GfG"
+#Output: TuT
+
+a="HELLO"
+b="Z"
+for i in range(0,len(a)):
+ c=ord(a[i])
+ d=ord(b)-c
+ e=ord('A')+d
+ print(chr(e),end="")
+ 
+ 
+ 
+ 
+ 
+ 
+ 

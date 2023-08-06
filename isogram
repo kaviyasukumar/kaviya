@@ -1,0 +1,14 @@
+#S = machine
+a="inka"
+count=0
+for i in range(0,len(a)):
+    for j in range(0,len(a)):
+     if i!=j:
+        if a[i]==a[j]:
+           count=count+1
+           
+if count==0:
+   print("its a isogram")
+else:
+   print("its not a isogram")
+    

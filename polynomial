@@ -1,0 +1,8 @@
+#Arr1 = {1 , 0, 3, 2}
+#Arr2 = {2, 0, 4}
+a1=[1,0,3,2]
+a2=[2,0,4]
+for i in range(4):
+    for j in range(0,len(a2)):
+        c=a1[i]*a2[j]
+        print(c)

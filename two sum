@@ -1,0 +1,10 @@
+#nums = [2,7,11,15]
+#target = 13
+a=[2,7,11,15]
+b=13
+c=b-a[0]
+for i in range(0,len(a),1):
+    if c==a[i]:
+        print(0,i)
+    
+    
